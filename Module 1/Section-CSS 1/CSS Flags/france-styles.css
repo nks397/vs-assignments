@@ -1,0 +1,41 @@
+*{
+    background-color: black;
+}
+
+.name{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+
+.France{
+    background-color: pink;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 750px;
+}
+.FR-first{
+    position: absolute;
+    background-color: #002495;
+    height: 500px;
+    width: 251px;
+}
+
+.FR-second{
+    position: absolute;
+    background-color: #FFFFFF;
+    height: 500px;
+    width: 251px;
+    left: 559px;
+}
+
+.FR-third{
+    position: absolute;
+    background-color: #ED2938;
+    height: 500px;
+    width: 251px;
+    left: 810px;
+}

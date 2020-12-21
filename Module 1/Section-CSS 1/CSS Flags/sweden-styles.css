@@ -1,0 +1,36 @@
+*{
+    background-color: black;
+}
+
+.name{
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 40px;
+}
+
+.Sweden{
+    background-color: #0269A6;
+    margin-left: auto;
+    margin-right: auto;
+    height: 500px;
+    width: 800px;
+}
+
+.SE-first{
+    position: absolute;
+    background-color: #FECC00;
+    height: 540px;
+    width: 90px;
+    bottom: 25px;
+    left: 550px;
+}
+
+.SE-second{
+    position: absolute;
+    background-color: #FECC00;
+    height: 90px;
+    width: 800px; 
+    bottom: 245px;
+    left: 283px;
+}
