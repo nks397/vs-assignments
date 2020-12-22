@@ -1,0 +1,22 @@
+{
+  "name": "assignments",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nks397/vs-assignments.git"
+  },
+  "author": "Nyjia Scott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nks397/vs-assignments/issues"
+  },
+  "homepage": "https://github.com/nks397/vs-assignments#readme",
+  "description": "",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
