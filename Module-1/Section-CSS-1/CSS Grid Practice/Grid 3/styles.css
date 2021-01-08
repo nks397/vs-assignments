@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat (100px, autofill);
+    grid-gap: 25px;
+    padding: 2%;
+}
+
+.box {
+    grid-column: 1 / 5;
+    border-radius: 5px;
+    padding: 10px 0px 10px 10px;
+}
+
+.one {
+    background-color: rgb(158, 158, 235);
+}
+
+.two { 
+    background-color: rgb(106, 106, 209);
+}
+
+.three {
+    background-color: rgb(63, 63, 212);
+} 
+
+.four {
+    background-color: rgb(37, 37, 121);
+}
+
+.five {
+    background-color: rgb(24, 24, 131);
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .box {
+        padding: 20px 0px 20px 20px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .box {
+        padding: 30px 0px 30px 30px;
+    }
+    
+    .two { 
+        grid-column: 1 / 2;
+    }
+    
+    .three {
+        grid-column: 2 / 5;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .box {
+        padding: 12px 0px 12px 12px;
+        height: 50px;
+    }
+    
+    .two { 
+        grid-column: 1 / 2;
+        border-radius: 5px;
+    }
+    
+    .three {
+        grid-column: 2 / 4;
+    }
+    
+    .four {
+        grid-column: 4 / 5;
+    }
+}
