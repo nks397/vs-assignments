@@ -24,7 +24,7 @@ black.addEventListener("scroll", function() {
 window.addEventListener("keydown", colorChange);
 
     function colorChange(e) {
-    if (e.keyCode === 98) {
+    if (e.keyCode === 66) {
         black.style.backgroundColor= "blue"
     }
     else if (e.keyCode === 82) {

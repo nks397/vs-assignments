@@ -17,6 +17,7 @@
   "homepage": "https://github.com/nks397/vs-assignments#readme",
   "description": "",
   "dependencies": {
+    "prompt": "^1.1.0",
     "readline-sync": "^1.4.10"
   }
 }

@@ -6,7 +6,7 @@ const index = readlineSync.keyInSelect (options, 'You are stuck in a room and ha
 
 while (isAlive === true) {
     if(options[index]==='hole'){
-    console.log ('You stuck your hand into the hole and died. ')
+    console.log ('You stuck your hand into the hole and felt a sharp pain in your palm. You immediately pulled your hand out to see that you were bitten by a snake. Stuck in the room and unable to recieve medical attention, you died. ')
  
     isAlive=false
 
@@ -18,10 +18,13 @@ while (isAlive === true) {
         break
         }  else {
             isAlive=false
-             console.log('You are dead. ')
+             console.log('You made the foolish decision to not escape the room and you, eventually, died. ')
          
             }
         
-    } 
+    } else if(options[index]==="door") {
+        console.log ('You tried to open the door without the key. You remained trapped in the room and died.')
+        break
+    }
 }
 console.log(options[index]);

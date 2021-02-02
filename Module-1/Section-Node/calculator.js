@@ -23,13 +23,13 @@ var math = function(num1, num2, oper) {
   };
 }
 
-var num1 = readline.question("Please enter your first number ");
+var num1 = readline.question("Please enter your first number. ");
 readline.question(num1)
 
-var num2 = readline.question( "Please enter your second number ");
+var num2 = readline.question( "Please enter your second number. ");
 readline.question(num2)
 
-var oper = readline.question("Please enter the operation to perform: add, sub, mul, div ");
+var oper = readline.question("Please enter the operation to perform: add, sub, mul, div. ");
 readline.question(oper)
 
 
