@@ -1,0 +1,29 @@
+button{
+    background-color: #f05454;
+    color: white;
+}
+
+#addBtn{ 
+    padding-bottom: 20px;
+    padding-left: 33px;
+    padding-right: 33px;
+
+}
+
+#aFirstNumber, #aSecondNumber, #sFirstNumber, #sSecondNumber, #mFirstNumber, #mSecondNumber{
+    padding-bottom: 20px;
+
+}
+
+#subBtn {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+#mulBtn {
+    padding-bottom: 20px;
+    padding-left: 22px;
+    padding-right: 22px;
+}

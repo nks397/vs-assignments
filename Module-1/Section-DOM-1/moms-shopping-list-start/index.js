@@ -46,9 +46,6 @@ form.addEventListener("submit", function(e) {
         } 
     }
 
-    //  when i click the submit
-    // with nothing in it, my list disappears.
-
 form.items.value = ""
 
 });

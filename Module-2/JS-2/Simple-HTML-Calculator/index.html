@@ -4,8 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Calculator</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+    <div id="add">
+        <input type="number" id="aFirstNumber" name="firstNumber"/>
+        <input type="number" id="aSecondNumber" name="secondNumber"/>
+        <button id="addBtn" onclick="addFunc">Add</button>
+    </div>
+    <div id = "sub">
+        <input type="number" id="sFirstNumber" name="firstNumber"/>
+        <input type="number" id="sSecondNumber" name="secondNumber"/>
+        <button id="subBtn" onclick="subFunc">Subtract</button>
+    </div>
+    <div id="mul">
+        <input type="number" id="mFirstNumber" name="firstNumber"/>
+        <input type="number" id="mSecondNumber" name="secondNumber"/>
+        <button id="mulBtn" onclick="mulFunc">Multiply</button>
+    </div>
 <script src="index.js"></script> 
 </body>
 </html>

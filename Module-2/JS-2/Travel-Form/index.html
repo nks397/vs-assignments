@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>Take Flight Airlines</h1>
+    <form name="travelForm">
+        <label for="firstName">First Name:</label> 
+        <br>
+        <input type="text" name="first-name"/>
+        <br>
+        <label for="lastName">Last Name:</label> 
+        <br> 
+        <input type="text" name="last-name"/>
+        <br>
+        <label for="age">Age:</label>
+        <br>
+        <input type="number" name="age"/>
+        <br>
+        <label for="gender">Gender:</label>
+        Male <input type="radio" name="gender" value="Male"/>
+        Female <input type="radio" name="gender" value="Female"/>
+        <br>
+        <label for="location">Location: </label>
+        <select name="travel-location" id="travel-location">
+        <option value="Paris">Paris</option>
+        <option value="London">London</option>
+        <option value="Rome">Rome</option>
+        </select>
+        <br>
+        <label for="diet">Dietary Restrictions:</label>
+        Vegan <input type="checkbox" name="diet" id="vegan" value="Vegan"/>
+        Vegetarian <input type="checkbox" name="diet" id="vegetarian" value=" Vegetarian"/>
+        Kosher <input type="checkbox" name="diet" id="kosher" value=" Kosher"/>
+        <br>
+        <button type="button" id="submit">Submit</button>
+    </form>
+  <script src="index.js"></script>
+</body>
+</html>
