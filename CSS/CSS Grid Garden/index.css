@@ -1,0 +1,299 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat (6, auto);
+    grid-template-columns: 2fr 1fr
+    
+}
+.container > div {
+    border: solid black 2px;
+    border-style: none;
+}
+
+.header {
+    background-image: url(http://www.csszengarden.com/214/huntington.jpg);
+    padding-bottom: 80px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 100px;
+    padding-right: 50px;
+    font-family: 'Julius Sans One';
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+}
+
+h2 {
+    font-family: 'Julius Sans One';
+    font-style: normal;
+    font-weight: 400;
+}
+
+p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sub-title {
+    font-size: 30px;
+    font-family: 'Libre Baskerville';
+    font-style: italic;
+    font-weight: 400;
+    color: white;
+}
+
+.view-design {
+    text-align: center;
+    padding-top: 120px;
+    background-image: url(http://www.csszengarden.com/214/huntington.jpg);
+    font-family: 'Julius Sans One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.intro, .participation, .requirements {
+    padding: 60px 100px;
+    
+}
+
+.participation {
+    background-color: #c3ece2da;
+}
+
+.authors {
+    background-color: #c3ece2da;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    font-family: 'Julius Sans One';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.authors-work {
+    color: rgb(43, 91, 107);
+
+}
+
+.authors-work:hover, .author-names:hover, .css-links:hover {
+    color: rgb(74, 154, 180);
+}
+.author-names {
+    color: rgba(0, 0, 0, 0.623);
+}
+
+em {
+    font-family: 'Libre Baskerville';
+    font-style: italic;
+    color: #7ea58d;
+}
+
+.names {
+    font-family: 'Libre Baskerville';
+    font-style: normal;
+}
+
+.empty-div {
+    background-color: #c3ece2da;
+}
+
+hr {
+    width: 200px;
+    margin-left: 125px;
+    color: #536e68;
+}
+
+.design-link {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.089);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.design-link:hover {
+    background-color: rgba(255, 255, 255, 0.301);
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+
+.arrow-link {
+    background-color: rgba(255, 255, 255, 0.089);
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.arrow-link:hover, .icons > div:hover {
+    background-color: rgba(255, 255, 255, 0.301);
+    transition-duration: 500ms;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(66, 138, 161);
+}
+
+.links-div {
+    background-color: #bbdfc8;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    font-family: 'Julius Sans One';
+    font-style: normal;
+    font-weight: 400;
+    color: #536e68;
+}
+
+.css-links {
+    color:rgb(48, 103, 121);  
+}
+
+
+.footer-1, .footer-2 {
+    grid-column: 1/3;
+    font-size: 40;
+    text-align: center;
+    padding-top: 130px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.footer-1 {
+    background-image: url(http://www.csszengarden.com/214/huntington.jpg);
+    color: white;
+    padding-bottom: 90px;
+}
+.footer-2 {
+    background-color: #174649;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+@media (max-width: 900px){ 
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(10, auto)
+    }
+
+    .view-design {
+        padding-top: 20px;
+        padding-right: 200px;
+        padding-left: 200px;
+        padding-bottom: 0px;
+        font-size: 25px;
+    }
+   
+    .header {
+        grid-column: 1/3;
+        padding-bottom: 60px;
+    }
+
+    .view-design, .intro, .requirements, .participation {
+        grid-column: 1/3;
+    }
+
+    .design-link, .arrow-link {
+        background-color: rgba(255, 255, 255, 0);
+    }
+    
+    .empty-div {
+        grid-column: none;
+        grid-row: none;
+    }
+
+    .authors {
+        grid-row: 9;
+        background-color: white;
+        padding-top: 40px;
+        padding-bottom: 5px;
+    }
+    
+    .links-div {
+        grid-row: 10;
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+
+    .first-half-authors {
+        float: left;
+        margin-left: 155px;
+    }
+
+    .second-half-authors {
+        float: right;
+        margin-right: 110px;
+    }
+
+    .first-half-links {
+        float: left;
+        margin-left: 150px;
+    }
+
+    .second-half-links {
+        float: right;
+    }
+
+    hr {
+        width: 0px;
+        margin-left: 10px;
+    }
+
+    .footer-1 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .footer-2 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .icons {
+        width: 40%;
+        padding: 40px;
+    
+    }
+
+    .icons > div {
+        width: 100%;
+        border-radius: 50%;
+    }
+
+    .icons i {
+        font-size: 40px;
+    }
+}
+
+/* FLEX */
+/* use flexbox to make the icons behave like css zen garden's social icons */
+.icons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    color: white;
+}
+
+.icons i {
+    font-size: 55px;
+}
+
+.icons > div {
+    border-style: solid;
+    border-color: white;
+    border-radius: 50%;
+    padding: 20px;
+}
