@@ -1,0 +1,66 @@
+{
+    "appetizers": [
+        {
+            "name": "hot wings",
+            "ingredients": ["chicken", "hot sauce", "butter", "canola oil", "worcestershire sauce"],
+            "description": "Deep-fried hot wings covered in hot sauce mixed with butter and served w/celery and your choice of blue cheese or ranch dressing."
+        },
+    
+        {
+            "name": "pasta",
+            "ingredients": ["rotini pasta", "tomatoes", "cucumbers", "cauliflower", "cheddar cheese", "italian dressing"],
+            "description": "Rotini pasta mixed with vegetables, cheddar cheese, and covered in italian dressing."
+        }
+    ],
+    
+    "coldSandwiches": [
+        {
+            "name": "blt",
+            "ingredients": ["bacon", "lettuce", "tomatoes", "mayonnaise", "sourdough"],
+            "description": "Crispy bacon with lettuce, tomatoes, and mayonnaise placed between sourdough bread."
+        },
+
+        {
+            "name": "ham & cheese",
+            "ingredients": ["smoked ham", "tomatoes", "lettuce", "smoked cheedar cheese", "mayonnaise", "english mustard", "brioche"],
+            "description": "Smoked ham with lettuce, tomatoes, smoked cheddar cheese, mayonnaise, and english mustard placed between brioche."
+        }
+    ],    
+    "hotSandwiches": [
+        {
+           "name": "philly cheese steak",
+            "ingredients": ["ribeye steak", "onions", "provolone cheese", "mayonnaise", "hoagie roll"],
+            "description": "Ribeye steak topped with caramelize onions, provolone cheese, and mayonnaise placed between a hoagie roll." 
+        },
+
+        {
+            "name": "tuna melt",
+            "ingredients": ["tuna", "red onions", "celery", "tomato", "mustard", "mayonnaise", "sourdough"],
+            "description": "Tuna with red onions, celery, tomato, and mustard mayonnaise placed between sourdough bread."
+        }
+    ],
+    "desserts": [
+        {
+           "name": "cheesecake",
+            "ingredients": ["cream cheese", "sour cream", "sugar", "extract", "eggs", "graham cracker crust"],
+            "description": "Decadent cheesecake topped with fresh berries." 
+        },
+        {
+            "name": "blueberry sour cream pie",
+            "ingredients": ["blueberries", "vanilla extract", "egg", "sour cream", "flour", "sugar", "butter", "salt"],
+            "description": "A sweet and tart pie made with a creamy filling and topped with a crumbly streusel."
+        }
+    ],
+    "drinks": [
+        {
+            "name": "lemonade",
+            "ingredients": ["lemons", "sugar", "water"],
+            "description": "Freshly squeezed lemonade served with mint or other fruits of your choosing."  
+        },
+        {
+            "name": "blueberry iced tea",
+            "ingredients": ["blueberries", "green tea"],
+            "description": "Fresh blueberries and green tea blended until smooth and poured over ice."
+        }
+    ]       
+}

@@ -1,0 +1,116 @@
+* {
+    margin-top: auto;
+}
+
+body {
+    background-color: #e9d182;
+    text-align: center;
+    margin: auto;
+}
+
+
+.todo-list-div {
+    background-repeat: no-repeat;
+    background-image: url("https://img.freepik.com/free-photo/abstract-background-with-golden-waves-black-background-template-vector-abstract-background-with-golden-waves-black-background-template-corporate-design-banner-website_113524-336.jpg?size=626&ext=jpg&ga=GA1.2.1926301820.1614954785");
+    background-size: cover; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+hr {
+    border: solid 2px;
+    color: white;
+}
+
+.input {
+    width: auto;
+    height: 25px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+}
+
+.input:focus, .doneBtn:focus, .delete-btn:focus, .edit-btn:focus {
+    outline: none;
+}
+
+.doneBtn {
+    padding: 6px;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(255, 255, 255);
+    border: none 2px;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;    
+    font-size: 35px;
+    color: white;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;   
+    color: black;
+}
+
+.description, .price {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.image {
+    width: auto;
+    height: 200px;
+}
+
+.list-items {
+    list-style-type: none;
+    text-align: left;
+    padding-top: 20px;
+    text-align: center;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 350px;
+    margin-right: 350px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.delete-btn {
+    font-family: 'Roboto', sans-serif;    
+    margin-bottom: 15px;
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: solid 2px #e9d182;
+}
+
+.edit-btn {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    position: relative;
+    left: 46%;
+    padding-left: 13px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    border: solid 2px #e9d182;
+}
+
+ .delete-btn:hover, .edit-btn:hover {
+    background-color: #e9d182;
+    transition: 600ms;
+    cursor: pointer;
+}
+
+.doneBtn:hover {
+    background-color: #e9d182;
+    color:white;
+    border: solid 2px white;
+    transition: 600ms;
+    cursor: pointer;
+}
+

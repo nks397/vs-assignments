@@ -8,11 +8,8 @@ submitBtn.addEventListener("click", function(e) {
     let goombasTotal = form.elements["total-goombas"].value
     let bobombsTotal = form.elements["total-bob-ombs"].value
     let cheepCheepsTotal = form.elements["total-cheep-cheeps"].value
-    let newGoomba = parseInt(goombasTotal) * 5
-    let goombasPrice = newGoomba
-    let newBobombs = parseInt(bobombsTotal) * 7
-    let bobombsPrice = newBobombs
-    let newCheepCheeps = parseInt(cheepCheepsTotal) * 11
-    let cheepCheepsPrice = newCheepCheeps
-    total.textContent = ("Total: " + (goombasPrice + bobombsPrice + cheepCheepsPrice) + " Coins")
+    let goombasPrice = goombasTotal * 5
+    let bobombsPrice = bobombsTotal * 7
+    let cheepCheepsPrice = cheepCheepsTotal * 11
+    total.textContent = "Total: " + (goombasPrice + bobombsPrice + cheepCheepsPrice) + " Coins"
 });

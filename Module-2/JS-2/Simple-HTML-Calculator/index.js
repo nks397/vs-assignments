@@ -3,6 +3,10 @@
  document.body.style.margin = "auto"
  document.body.style.padding = "250px"
 
+const para = document.createElement("p")
+document.body.append(para)
+
+
 const addBtn = document.getElementById("addBtn").addEventListener("click", (addFunc));
 function addFunc() {
 
@@ -10,7 +14,7 @@ function addFunc() {
     const aSecondNumber = parseInt(document.getElementById("aSecondNumber").value)
    
     const result = (aFirstNumber + aSecondNumber)
-    document.body.append("Result: " + result)
+   para.textContent = "Result: " + result
     
 }
 
@@ -21,7 +25,7 @@ function subFunc() {
     const sSecondNumber = parseInt(document.getElementById("sSecondNumber").value)
    
     const result = (sFirstNumber - sSecondNumber)
-    document.body.append("Result: " + result)
+    para.textContent = "Result: " + result
 }
 
 const mulBtn = document.getElementById("mulBtn").addEventListener("click", (mulFunc));
@@ -31,7 +35,7 @@ function mulFunc() {
     const mSecondNumber = parseInt(document.getElementById("mSecondNumber").value)
    
     const result = (mFirstNumber * mSecondNumber)
-    document.body.append("Result: " + result)
-
+    para.textContent = "Result: " + result
+console.log(result)
 }
 

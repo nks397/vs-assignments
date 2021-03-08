@@ -1,23 +1,23 @@
-const black = document.getElementById("black");
+const blackBtn = document.getElementById("black");
 
-black.addEventListener("mouseover", function() {
-    black.style.backgroundColor= "blue"
+blackBtn.addEventListener("mouseover", function() {
+    blackBtn.style.backgroundColor= "blue"
     });
 
-black.addEventListener("mousedown", function() {
-    black.style.backgroundColor= "red"
+blackBtn.addEventListener("mousedown", function() {
+    blackBtn.style.backgroundColor= "red"
     });
 
-black.addEventListener("mouseup", function() {
-    black.style.backgroundColor= "yellow"
+blackBtn.addEventListener("mouseup", function() {
+    blackBtn.style.backgroundColor= "yellow"
     });
 
-black.addEventListener("dblclick", function() {
-    black.style.backgroundColor= "green"
+blackBtn.addEventListener("dblclick", function() {
+    blackBtn.style.backgroundColor= "green"
     });
 
-black.addEventListener("scroll", function() {
-    black.style.backgroundColor= "orange"
+blackBtn.addEventListener("scroll", function() {
+    blackBtn.style.backgroundColor= "orange"
     });
     
 
@@ -25,18 +25,18 @@ window.addEventListener("keydown", colorChange);
 
     function colorChange(e) {
     if (e.keyCode === 66) {
-        black.style.backgroundColor= "blue"
+        blackBtn.style.backgroundColor= "blue"
     }
     else if (e.keyCode === 82) {
-        black.style.backgroundColor= "red" 
+        blackBtn.style.backgroundColor= "red" 
     }
     else if (e.keyCode === 89) {
-        black.style.backgroundColor= "yellow"
+        blackBtn.style.backgroundColor= "yellow"
     }
     else if (e.keyCode === 71) {
-        black.style.backgroundColor= "green"
+        blackBtn.style.backgroundColor= "green"
     }
     else if (e.keyCode === 79) {
-        black.style.backgroundColor= "orange"
+        blackBtn.style.backgroundColor= "orange"
     }
 }
