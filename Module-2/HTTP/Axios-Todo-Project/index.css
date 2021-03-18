@@ -9,7 +9,7 @@ body {
 }
 
 
-.todo-list-div {
+#container {
     background-repeat: no-repeat;
     background-image: url("https://img.freepik.com/free-photo/abstract-background-with-golden-waves-black-background-template-vector-abstract-background-with-golden-waves-black-background-template-corporate-design-banner-website_113524-336.jpg?size=626&ext=jpg&ga=GA1.2.1926301820.1614954785");
     background-size: cover; 
